@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Enter two number</h1>
+    <form id = "formsubmission" action="index.php" method="post">
+        <input type="number" placeholder="First number" name="number1">
+        <br>
+        <input type="number" placeholder="Second number" name="number2">
+        <br>
+        <div class="stylebut">
+        <input type="submit" value="addition" name="addition">
+        <br>
+        <input type="submit" value="subtaction" name="subtract">
+        <br>
+        <input type="submit" value="multiplication" name="mul">
+        <br>
+        <input type="submit" value="division" name="div">
+        <br>
+        <input  type="button" value="reset" onclick="ResetForm()">
+        </div>
+    </form>
+    <script>
+       function ResetForm(){
+        document.getElementById('formsubmission').reset();
+       }
+    </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.stylebut input[type='submit']{
+    font-size: 28px;
+    border-radius: 15px;
+    color: blue;
+}
+.stylebut input[type='button']{
+     font-size: 28px;
+    border-radius: 15px;
+    color: red;
+}
