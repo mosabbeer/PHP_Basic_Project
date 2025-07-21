@@ -1,0 +1,10 @@
+.form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.backgorund
+{
+     background-color: rgb(117, 117, 138);
+    width: 400px;
+}
